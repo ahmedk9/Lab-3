@@ -1,35 +1,54 @@
 <!doctype html>
 <html>
 <head>
-	<title>Dawg Pizza</title>
+	<meta charset="UTF-8">
+	<meta name="Ahmed Elkholy" content="1340626">
+	<!--This is the title of the page that appears on the browser tab-->
+	<title>Dawg Pizza Home</title>
+	<!--This is a reference to link to the CSS document-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<article>
 		<header>
+			<!--This imports the logo of Dawg Pizza into the header of the page and creats a link to the homepage-->
 			<a href="index.html">
 			<img class="logo" src="img/logo.png" alt="Dawg pizza icon" width="125" height="100"></a>
 			<nav>
 				<ul>
+					<!--This creates the navigation bar which is located in the header. It includes "Home", "Menu", "About us" and "Jobs" pages-->
 					<li><a href="index.html">
 						Home</a></li>
 						<li><a href="menu.html">
 						Menu</a></li>		
 						<li><a href="about.html">
-						About Us</a></li>	
+						About Us</a></li>
+						<li><a href="jobs.html">
+						Jobs</a></li>		
 				</ul>
 			</nav>	
 		</header>
 		<section>
+			<!--This is the text on the homepage including contact information, store hours, location-->
 			<h1>DAWG PIZZA</h1>
 			<h2>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</h2>
+			<!--This is an image of multiple pizzas placed in the middle of the screen to grab the users attention-->
 			<img class="logo" src="img/pizza.jpg" alt="Pizza on plate" width="900" height="350">
-			<p>We are open 10:00am to 11:00pm, Monday through Saturday.</p>
-			<p>Call us at 206-555-1212 or stop by our location at 4306 University Way NE, Seattle, WA 98105</p>
-			<p><a href="mailto:dawgpizzaseattle@gmail.com"> Our email address</a></p>
-			<p>Follow us on Twitter at			
+				<p>We are open 10:00am to 11:00pm, Monday through Saturday.</p>
+			<!--As part of the extras i made it so that the user can click on the address and it will show him/her where we are located on google maps-->
+				<p>Call us at 206-555-1212 or stop by our location at <a href="https://maps.google.com/maps?q=4306+University+Way+NE,+Seattle,+WA+98105&ie=UTF-8&ei=3J9VUrTZNcPQiwLPooGYCw&ved=0CAgQ_AUoAg">4306 University Way NE, Seattle, WA 98105</a></p>
+			<!--A link in place so that when the user clicks on our email address it creates an email with our email as the recepient-->
+				<p><a href="mailto:dawgpizzaseattle@gmail.com"> Our email address</a></p>
+				<p>Follow us on Twitter at	
+			<!--A link so that users can press on and visit our twitter page-->		
 			<a href="https://twitter.com/search?q=DawgPizzaSea&src=typd&mode=users">@DawgPizzaSea</a></p>
 		</section>
 	</article>
+<!--This is the footer on everypage that includes a copyright statment and our phone number-->
+	<footer>
+		Call us for delivery: 206-555-1212
+		<br>
+		© 2013 Dawg Pizza
+	</footer>
 </body>
 </html>
