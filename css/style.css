@@ -32,17 +32,23 @@ p {
 	}
 
 dt{
-	margin: 20px;
+	clear: both;
+	padding: 10px;
+	margin-left: 25px;
 }
 dd{
-	margin: 5px;
-	padding-left: 50px;
+	clear: both;
+	margin-left: 60px;
+	padding: 10px;
+
+
 }
 
 .logo{
 	float: left;
 	display: inline-block;
 	padding-right: 20px;
+	clear: both;
 
 }
 nav ul{
