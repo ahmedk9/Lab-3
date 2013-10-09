@@ -1,10 +1,10 @@
 @import url(reset.css);
 body{
-	margin: 10px;
+	margin: 5px;
 	background-image: url(../img/witewall.png);
 	font-family: 'Calibri', sans-serif;
 	font-size: 18px;
-	padding: 20px;
+	padding: 10px;
 }
 
 h1{
@@ -21,20 +21,23 @@ h2{
 	font-weight: bold;
 	text-align: center;
 }
+
+h3{
+	font-size: 150%;
+	color:#04356C;
+}
 p {
-	padding: 10px;
+	padding: 5px;
 	clear: both;
-	color: 
 	}
 
-.content-box{
-	width:85%;
-	background-color: #FFF;
-	margin: 0 auto;
-	box-shadow: 2px 2px 6px #555;
-	padding: 10px;
+dt{
+	margin: 20px;
 }
-
+dd{
+	margin: 5px;
+	padding-left: 50px;
+}
 
 .logo{
 	float: left;
